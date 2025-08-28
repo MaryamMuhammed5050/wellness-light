@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Home, Pill, MessageCircle, User } from "lucide-react";
+import { Home, Pill, MessageCircle } from "lucide-react";
 import { useLocation, Link } from "react-router-dom";
 
 export function Navigation() {
@@ -9,7 +9,6 @@ export function Navigation() {
     { path: "/", icon: Home, label: "Home" },
     { path: "/medications", icon: Pill, label: "Medications" },
     { path: "/chat", icon: MessageCircle, label: "Chat" },
-    { path: "/profile", icon: User, label: "Profile" },
   ];
 
   return (
